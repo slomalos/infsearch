@@ -1,4 +1,8 @@
 #запустите робота для скачивания архива документов, если ещё не запустили (robot.py).
+# Если нужно в скрипте, то  раскоментьте следующие строки:
+#echo "robot"
+#python3 robot.py
+#if [ $? -ne 0 ]; then echo "robot fail"; exit 1; fi
 
 echo "1) клининг"
 rm -f freq_dict_stemmed.csv
