@@ -8,16 +8,6 @@ AR5IV_BASE = "https://ar5iv.org/html/"
 OUTPUT_DIR = "./corpus_arxiv_html"
 FILES_PER_DIR = 1000
 
-import requests
-import os
-import time
-from concurrent.futures import ThreadPoolExecutor
-import random
-
-AR5IV_BASE = "https://ar5iv.org/html/"
-OUTPUT_DIR = "./corpus_arxiv_html"
-FILES_PER_DIR = 1000
-
 
 REQUEST_DELAY = 1.0 # пауза между скачиваниями
 ERROR_TIMEOUT = 30.0 # Время задержки, если бан
@@ -77,4 +67,5 @@ def main():
                 print(res)
 
 if __name__ == "__main__":
+
     main()
