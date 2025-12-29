@@ -7,8 +7,11 @@ db:
 
 logic:
   delay: 1.0
+  error_delay: 30.0
+  target_docs: 70000
   user_agent: "robby"
   
 data:
   source_dir: "./corpus_arxiv_html"
+
   source_name: "ar5iv.org"
